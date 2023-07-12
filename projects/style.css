@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    
+
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.outerBox{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, rgb(41, 177, 226),rgb(255, 213, 0));
+    margin: 0,auto;
+}
+.innnerBox{
+    border: solid 1px;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+   
+    top: 30%;
+    transform: translate(20%);
+    padding: 30px,20px;
+    background-color: rgb(137, 208, 184);
+    border-radius: 7px;
+    box-shadow: 2px 3px 4px rgb(40, 50, 144);
+}
+.signUp-Header h1{
+ font-size: 2.5rem;
+ color: rgb(62, 43, 43);
+ margin: 10px ;
+ position: relative;
+ left: 20px;
+
+}
+.signUp-Header p{
+    font-size: 0.8rem ;
+    color: #a34040;
+    margin: 2px;
+    position: relative;
+    left: 30px;
+
+}
+.SignUpBody p {
+    margin: 10px 30px;
+    padding: 3px;
+}
+.SignUpBody p label{
+    display: block;
+}
+.SignUpBody p label input{
+    width: 1px;
+    height: 20px;
+    padding: 20px;
+
+    border: 2px solid rgb(72, 0, 255);
+    border-radius: 20px;
+}
+.button{
+    border: #a34040;
+    width: 73%;
+    height: 25px;
+    background-color: #3489db;
+    border: black;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #0d63b4;
+}
+.sign up{
+    color: #86a288;
+    font-size: 0.2
+    ;
+
+
+}
+.sign up a{
+    color: antiquewhite;
+    font-size: 0.8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#circle{
+    width: 200px;
+    height: 2              00px;
+    border-radius: 100px;
+    background: linear-gradient(to right,#c81111aa);
+}
